@@ -1,94 +1,94 @@
-# 🧠 Smart Recipe — AI-Powered Ingredient Scanner & Recipe Suggestion App
+# 🧠 Smart Recipe Image Recognition App
 
-**Build Status:** Stable Prototype (Android APK available)
-
----
-
-## Table of Contents
-
-- What Is This?  
-- Key Features  
-- How It Works  
-- Architecture & Algorithms  
-- Tech Stack  
-- Getting Started  
-- Prerequisites  
-- Building & Running  
-- Example Use Case  
-- Future Improvements  
-- License  
+An AI-powered Android mobile application that allows users to scan ingredients from their fridge using real-time image recognition and receive personalized recipe suggestions based on the detected items.
 
 ---
 
-## What Is This?
+## 🚀 Features
 
-**Smart Recipe** is an innovative Android mobile app that helps users decide what to cook by automatically recognizing ingredients in their fridge via the phone camera and suggesting personalized recipes. It leverages advanced **image recognition** powered by a custom-trained convolutional neural network (CNN), integrated seamlessly into a user-friendly mobile interface.
-
-This project demonstrates applied machine learning, mobile app development, and backend integration for real-time, practical problem-solving aimed at reducing food waste and simplifying meal prep.
-
----
-
-## Key Features
-
-- **Real-time Ingredient Recognition:** Uses phone camera to classify fridge items with 85%+ accuracy.  
-- **Custom CNN Model:** Trained on 12 common food classes, optimized for mobile inference via TensorFlow Lite.  
-- **Dynamic Recipe Suggestions:** Queries third-party APIs to recommend recipes matching detected ingredients.  
-- **User Authentication & Data Storage:** Firebase Authentication and Realtime Database integration for user profiles and preferences.  
-- **Intuitive Android UI:** Clean, responsive design built with Android Studio and XML layouts.  
-- **User Feedback Mechanism:** In-app feedback for iterative improvements.  
+- 📸 Real-time image classification using phone camera  
+- 🥬 Classifies common food items with >85% accuracy using a custom-trained CNN  
+- 🍽️ Fetches dynamic recipe suggestions from third-party APIs based on scanned items  
+- 🔐 Firebase Authentication and Realtime Database integration  
+- 📱 Intuitive mobile UI built with Android Studio (Java, XML layouts)  
+- 🛠️ Integrated TensorFlow Lite and OpenCV for fast, efficient image processing on-device  
 
 ---
 
-## How It Works
+## 🎯 Motivation
 
-### Initialization
-
-- User logs in or creates an account via Firebase Authentication.  
-- Opens camera interface to capture fridge contents.  
-
-### Image Recognition
-
-- Captured images are preprocessed (resized, normalized).  
-- Passed through a TensorFlow Lite CNN model embedded in the app.  
-- Model outputs ingredient classifications with confidence scores.  
-
-### Recipe Suggestion
-
-- Detected ingredients are sent to recipe provider APIs via REST calls.  
-- API returns dynamic recipe lists tailored to available items.  
-- Recipes displayed in-app with nutritional info and preparation details.  
-
-### Feedback Loop
-
-- Users can rate and comment on suggested recipes and app experience.  
-- Feedback stored in Firebase Realtime Database to guide future updates.  
+Inspired by the idea of reducing food waste and simplifying home cooking, this app helps users make smarter choices with what's already in their fridge. Built as part of a second-year software engineering project and awarded **Best Project of the Year** by the University of Leicester.
 
 ---
 
-## Architecture & Algorithms
+## 📚 Background & Research
 
-**CNN Model:**  
-- 5-layer convolutional neural network with ReLU activations.  
-- Trained on labelled fridge image dataset covering 12 food categories (e.g., tomato, carrot, cheese).  
-- Achieves 85.3% validation accuracy using stratified cross-validation.  
+Developing this application required deep research into:
 
-**Mobile Integration:**  
-- Model exported and optimized using TensorFlow Lite for on-device inference.  
-- Image preprocessing done in-app using OpenCV (resizing, normalization).  
+### 📷 Image Recognition Technology
+Image recognition is central to the app’s functionality, enabling automatic detection of ingredients from photos. To achieve this:
+- Explored various ML frameworks and libraries including PyTorch, TensorFlow, and OpenCV.
+- Chose **TensorFlow** for its compatibility with Android and **OpenCV** for image pre-processing.
+- Converted the trained CNN to **TensorFlow Lite** for mobile deployment.
 
-**Backend:**  
-- Firebase handles user authentication and stores user data/feedback.  
-- Recipe suggestions fetched from external RESTful recipe APIs (e.g., Spoonacular).  
+### 📱 Mobile App Development with Android Studio
+- Android Studio was selected due to its native support for Java and wide device compatibility.
+- Leveraged prior experience in Java to accelerate UI design, testing, and deployment.
+- Implemented XML layouts and Firebase integration for a responsive and dynamic user experience.
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-| Layer           | Tools & Libraries                   |
-|-----------------|-----------------------------------|
-| Mobile UI       | Android Studio, Java, XML Layouts |
-| Machine Learning| Python, TensorFlow, NumPy, OpenCV |
-| Backend         | Firebase Authentication, Realtime DB |
-| APIs            | RESTful Recipe Providers           |
-| Development     | Git, GitHub, Android Emulator      |
+| Layer         | Tools / Libraries |
+|---------------|-------------------|
+| Mobile UI     | Android Studio, Java, XML, Firebase UI |
+| ML Model      | TensorFlow, TensorFlow Lite, OpenCV, NumPy, Pandas |
+| Backend/API   | RESTful APIs (e.g., Spoonacular), Firebase Realtime DB |
+| Tools         | Git, GitHub, Android Emulator, Python |
+| ML Training   | Custom CNN (image classification, 85%+ accuracy) |
 
+---
+
+## 🧪 Model Details
+
+- **Input:** JPEG images captured via in-app camera interface  
+- **Preprocessing:** Image resizing, normalization (handled via OpenCV)  
+- **Architecture:** 5-layer convolutional neural network (CNN) using ReLU activation  
+- **Dataset:** 12-class food image dataset curated for fridge ingredients  
+- **Training:** Stratified cross-validation used for model validation  
+- **Accuracy:** Achieved **85.3%** on validation set  
+- **Deployment:** Converted to **TensorFlow Lite** format and integrated directly in the app
+
+---
+
+## 📲 How It Works
+
+1. **User Login:** Authenticates via Firebase  
+2. **Scan Ingredients:** Launches camera, captures fridge image  
+3. **Recognize Items:** CNN model classifies visible ingredients  
+4. **Suggest Recipes:** Fetches recipes from third-party APIs based on identified items  
+5. **User Feedback:** Ratings/comments stored in Firebase for future enhancements
+
+---
+
+## 🚧 Future Improvements
+
+- ✅ Add barcode scanning as an alternative to image input  
+- 🔄 Implement YOLO-style multi-object detection for more precise classification  
+- 🌐 Cache recipe API responses for offline usage  
+- 📊 Add per-recipe nutritional breakdown and caloric estimates  
+
+---
+
+## 👤 Author
+
+**Krish Patel**  
+BSc Software Engineering @ University of Leicester  
+🔗 [LinkedIn](https://www.linkedin.com/in/grad-krish/) • 📧 krish280703@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
