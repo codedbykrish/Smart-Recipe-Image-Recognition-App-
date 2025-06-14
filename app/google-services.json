@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162761525493",
+    "project_id": "login-register-firebase-ada40",
+    "storage_bucket": "login-register-firebase-ada40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162761525493:android:999518e00d6a66b0095dbc",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoTX7gqNE1_PPe4hYYJdBl61VzwwKJGkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162761525493:android:79948c41433d05d1095dbc",
+        "android_client_info": {
+          "package_name": "com.example.myloginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoTX7gqNE1_PPe4hYYJdBl61VzwwKJGkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

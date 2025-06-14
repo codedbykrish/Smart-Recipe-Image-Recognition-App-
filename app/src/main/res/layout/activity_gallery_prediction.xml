@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryPredictionActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/select_image"
+        android:text="Select Image"
+        android:textAllCaps="false"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/image_v"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/recipes_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:visibility="visible">
+    </LinearLayout>
+
+</LinearLayout>

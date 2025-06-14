@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ImagePro</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="login">Login</string>
+    <string name="sign_in">sign in</string>
+    <string name="click_to_register">click to register</string>
+
+    <string name="potato_onion_soup_recipe">Ingredients\n
+    20ml vegetable oil\n
+    750g onions, sliced\n
+    3 garlic cloves, chopped\n
+    10g fresh sage\n
+    600g potatoes\n
+    1 litre boiling water\n
+    10g vegetable bouillon or 1 stock cube\n
+    Small sprig fresh thyme\n
+    120ml milk\n
+    To serve\n
+    2 tsp rapeseed oil\n
+    100g red onions, finely sliced\n\nMethod\nStep 1\nPeel the potatoes and cut into chunks.\n\nStep 2\nPlace on a lined baking tray, add the sage and half of the oil and mix well. Cover and place into a preheated oven at 180°C (160°C fan/gas mark 4) for around 40 minutes, stirring occasionally, until soft and lightly coloured.\n\nStep 3\nPour the oil into a heavy-based pan on a medium hob and add the onion and garlic.\n\nStep 4\nSauté for 10 minutes until soft, reduce the heat and cover with a lid. Leave to sweat for a further 20 minutes. Remove the lid, increase the heat and allow to colour slightly.\n\nStep 5\nAdd the potatoes to the onions and stir well.\n\nStep 6\nAdd the water and the bouillon or stock cube and bring to a rapid boil. Continue to boil for a further 15 minutes until all the vegetables are soft.\n\nStep 7\nRemove from the heat and blend with a stick blender until perfectly smooth.\n\nStep 8\nAdd the thyme leaves and the milk, season well to taste.\n\nStep 9\nFor the topping\nPlace the oil in a pan, add the sliced onions and sauté until soft. Place a spoonful on top of the soup when you serve.
+
+
+
+</string>
+    <string name="tomato_garlic_pasta_recipe">Ingredients\n
+    2 pounds tomatoes\n
+    1 (8 ounce) package angel hair pasta\n
+    1 tablespoon olive oil, or as needed\n
+    4 cloves crushed garlic\n
+    1 tablespoon tomato paste\n
+    salt to taste\n
+    ground black pepper to taste\n
+    1 tablespoon chopped fresh basil\n
+    ¼ cup grated Parmesan cheese\n\nMethod\nStep 1\nPlace tomatoes in a large pot and cover with cold water. Bring just to a boil. Pour off water, and cover again with cold water. Peel the skin off tomatoes and cut into small pieces.\n\nStep 2\nBring a large pot of lightly salted water to a boil. Cook angel hair pasta in the boiling water, stirring occasionally, until tender yet firm to the bite, 4 to 5 minutes.\n\nStep 3\nMeanwhile, heat olive oil in a large skillet or pan, making sure there is enough to cover the bottom of the pan, and sauté garlic until opaque but not browned. Stir in tomato paste. Immediately stir in the tomatoes, salt, and pepper. Reduce heat, and simmer until pasta is ready, adding basil at the end.\n\nStep 4\nDrain pasta, do not rinse in cold water. Toss with a bit of olive oil, then mix into the sauce.\n\nStep 5\nReduce heat as low as possible. Keep warm, uncovered, for about 10 minutes when it is ready to serve. Garnish generously with fresh Parmesan cheese.
+</string>
+    <string name="potato_soup_recipe">Ingredients\n
+4 large potatoes, peeled and diced\n
+2 carrots, peeled and sliced\n
+1 onion, chopped\n
+4 cups chicken or vegetable broth\n
+2 cups water\n
+1 teaspoon salt\n
+1/2 teaspoon black pepper\n
+1 cup heavy cream\n
+1/2 cup shredded cheddar cheese\n
+4 slices bacon, cooked and crumbled\n
+2 tablespoons chopped fresh chives\n\nMethod\nStep 1\nIn a large pot, combine potatoes, carrots, onion, broth, and water. Bring to a boil over high heat. Reduce heat to medium-low, cover, and simmer until potatoes are tender, about 20 minutes.\n\nStep 2\nUsing an immersion blender, blend the soup until smooth. You can also blend in batches using a regular blender; be careful when blending hot liquids.\n\nStep 3\nStir in salt, pepper, and heavy cream. Heat through over medium heat, but do not boil.\n\nStep 4\nServe hot, garnished with shredded cheddar cheese, crumbled bacon, and chopped chives.
+</string>
+
+</resources>

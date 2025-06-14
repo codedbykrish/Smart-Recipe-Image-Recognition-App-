@@ -1,0 +1,3 @@
+include ':app'
+rootProject.name = "SmartRecipe"
+include ':openCVLibrary3413'
