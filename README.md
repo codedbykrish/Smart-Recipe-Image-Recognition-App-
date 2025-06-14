@@ -87,8 +87,3 @@ Image recognition is central to the app’s functionality, enabling automatic de
 BSc Software Engineering @ University of Leicester  
 🔗 [LinkedIn](https://www.linkedin.com/in/grad-krish/) • 📧 krish280703@gmail.com
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
