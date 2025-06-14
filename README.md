@@ -40,13 +40,6 @@ Inspired by the idea of reducing food waste and simplifying home cooking, this a
 - **Performance:** Achieved **85.3% accuracy** on validation set using stratified cross-validation
 - **Export:** Model converted and integrated into Android using TensorFlow Lite
 
----
-
-## 📸 Screenshots
-
-> _(Add screenshots here once available — upload to `/screenshots` folder and embed below)_
-
----
 
 ---
 
