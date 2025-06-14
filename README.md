@@ -63,7 +63,7 @@ Inspired by the idea of reducing food waste and simplifying home cooking, this a
 
 **Krish Patel**  
 BSc Software Engineering @ University of Leicester  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-link) • 📧 krish280703@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/grad-krish/) • 📧 krish280703@gmail.com
 
 ---
 
